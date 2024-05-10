@@ -53,6 +53,12 @@ public:
 				cout << current->data << " " << endl;
 				current = current->next;
 			}
-		}
+			cout << endl;
+		}// return the balue of the top node
+	}
+
+	// IsEmpty operation: check if the stack is empty
+	bool isEmpty() {
+	
 	}
 };
