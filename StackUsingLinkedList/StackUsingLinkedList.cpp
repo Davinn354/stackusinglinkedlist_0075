@@ -59,6 +59,6 @@ public:
 
 	// IsEmpty operation: check if the stack is empty
 	bool isEmpty() {
-	
+		return top == NULL; // Return true if the top ointer is NULL, indicating an empty stack
 	}
 };
